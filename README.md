@@ -1,2 +1,26 @@
-# Hernandez_Ryan_2018_RecodingSim
-Simulation study of recoding effectiveness
+# Chang_Recoding_Analysis
+
+### 01-SATURATION_TEST
+directory with test to look for correlation between branch-length 
+scaling factor and saturation
+
+### phylotocol_recoding_v1.pdf
+document laying out planned analyses.
+see https://github.com/josephryan/phylotocol for more info
+
+### LICENSE
+    Copyright (C) 2018, Hernandez and Ryan
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
