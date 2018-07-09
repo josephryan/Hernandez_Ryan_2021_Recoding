@@ -20,6 +20,9 @@ see https://github.com/josephryan/phylotocol for more info
 ### phylotocol_recodingextension_v1.0.pdf
 Our analysis did not address compositional heterogeneity and since we used the same model for simulation and testing, we did not consider problems stemming from poor model fit. As such, this phylotocol serves as an extension of our previous analysis (phylotocol_recoding_v1.pdf) to address these concerns.
 
+### phylotocol_recodingextension_v1.1.pdf
+Changed the way we will perform simulations and calculations of compositional heterogeneity in section 2.3 of the phylotocol by using straightforward methods in P4 (Foster 2004). 
+
 ### LICENSE
     Copyright (C) 2018, Hernandez and Ryan
 
