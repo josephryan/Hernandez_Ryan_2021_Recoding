@@ -23,6 +23,9 @@ Our analysis did not address compositional heterogeneity and since we used the s
 ### phylotocol_recodingextension_v1.1.pdf
 Changed the way we will perform simulations and calculations of compositional heterogeneity in section 2.3 of the phylotocol by using straightforward methods in P4 (Foster 2004). 
 
+### phylotocol_recodingextension_v1.2.pdf
+Changed methods in section 2.3 because we could not adequately simulate and test compositional heterogeneity. We have changed the tree we will use for simulations and the method we will use to evaluate tree reconstructions.
+
 ### LICENSE
     Copyright (C) 2018, Hernandez and Ryan
 
