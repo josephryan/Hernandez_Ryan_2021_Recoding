@@ -26,6 +26,9 @@ Changed the way we will perform simulations and calculations of compositional he
 ### phylotocol_recodingextension_v1.2.pdf
 Changed methods in section 2.3 because we could not adequately simulate and test compositional heterogeneity. We have changed the tree we will use for simulations and the method we will use to evaluate tree reconstructions.
 
+### phylotocol_recodingextension_v1.3.pdf
+We added methods under section 2.3.7 to test for statistical significance of results from 2.3.6. We also added section 2.4 to test alternative Dayhoff recoding strategies.
+
 ### LICENSE
     Copyright (C) 2018, Hernandez and Ryan
 
