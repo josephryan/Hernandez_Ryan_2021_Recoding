@@ -9,12 +9,12 @@ The principle of using recoding to address substitution saturation has never bee
 #### Objectives
 The objective of this study is to test the performance of recoding under a range of saturation levels and determine if it is appropriate for deep phylogenetic questions. To do this we will perform simulations to evaluate the effect of two different types of recoding (i.e., Dayhoff-6 recoding and S&R6 recording) applied to simulated data matrices that are evolved using the model that corresponds to the basis of the particular recoding strategy (i.e. PAM250 for Dayhoff-6 recoding and JTT for S&R6 recoding). Sequences will be simulated on the topologies from Chang et al. (2015) and Feuda et al. (2017). These are two different topologies based on the same dataset, which includes a wide range of animals and a few closely related outgroups. 
 
+### 00-PHYLOTOCOL
+directory in which we have layed out all planned analyses
+
 ### 01-SATURATION_TEST
 directory with test to look for correlation between branch-length 
 scaling factor and saturation
-
-### 01-PHYLOTOCOL
-directory in which we have layed out all planned analyses
 
 ### LICENSE
     Copyright (C) 2018, Hernandez and Ryan
