@@ -1,8 +1,8 @@
 # Planned analyses
 
 ### phylotocol_recoding_v1.pdf
-document laying out planned analyses.
-see https://github.com/josephryan/phylotocol for more info
+Document laying out planned analyses.
+See https://github.com/josephryan/phylotocol for more info
 
 ### phylotocol_recodingextension_v1.0.pdf
 Our analysis did not address compositional heterogeneity and since we used the same model for simulation and testing, we did not consider problems stemming from poor model fit. As such, this phylotocol serves as an extension of our previous analysis (phylotocol_recoding_v1.pdf) to address these concerns.
