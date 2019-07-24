@@ -5,7 +5,7 @@ produces compositionally heterogeneous datasets using hypothetical trees 0.008, 
  
 to run: 
 
-`perl comphet.pl TREE0008 INFL NULL > pvals.0.1.out`
+`perl comphet.pl TREE0008 INFL NULL > pvals.out`  
 
 INFL: inflation parameter  
 
