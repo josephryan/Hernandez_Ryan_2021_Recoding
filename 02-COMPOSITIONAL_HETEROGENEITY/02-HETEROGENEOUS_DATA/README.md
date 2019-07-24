@@ -5,8 +5,8 @@ produces compositionally heterogeneous datasets using hypothetical trees 0.008, 
  
 to run: 
 
-`perl comphet.pl TREE0008 INFL NULL > pvals.out`  
+`perl comphet.pl TREE0008 INFL NULL.out > pvals.out`  
 
 INFL: inflation parameter  
 
-NULL: comp-het indices from null distribution (these are produced in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
+NULL: null distribution of comp-het indices (these are produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
