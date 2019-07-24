@@ -7,6 +7,6 @@ to run:
 
 `perl comphet.pl TREE0008 INFL NULL.out > pvals.out`  
 
-INFL: inflation parameter  
+INFL is the inflation parameter  
 
-NULL: null distribution of comp-het indices (these are produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
+NULL is the  null distribution of comp-het indices (these are produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
