@@ -12,6 +12,9 @@ The objective of this study is to test the performance of recoding under a range
 ### 00-PHYLOTOCOL
 directory in which we have layed out all planned analyses
 
+### 01-MODULES
+perl modules used by multiple scripts in this repo
+
 ### 01-SATURATION_TEST
 directory with test to look for correlation between branch-length 
 scaling factor and saturation
