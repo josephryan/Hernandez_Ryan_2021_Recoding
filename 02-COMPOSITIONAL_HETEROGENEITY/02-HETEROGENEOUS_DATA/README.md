@@ -13,4 +13,4 @@ INFL is the inflation parameter and NULL.out is the null distribution of comp-he
 produces a scatter plot showing the relationship between the length of internode branches for each tree and comp-het index values for each inflation parameter tested using comphet_index.csv
 
 ### comphet_index.csv
-com-het index values for each dataset simulated
+com-het index values for each simulated dataset
