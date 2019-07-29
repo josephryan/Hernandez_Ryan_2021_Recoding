@@ -8,3 +8,9 @@ to run:
 `perl comphet.pl TREE0008 INFL NULL.out > pvals.out`  
 
 INFL is the inflation parameter and NULL.out is the null distribution of comp-het indices (produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
+
+### comphet_index_scatter.R 
+produces a scatter plot showing the relationship between the length of internode branches for each tree and comp-het index values for each inflation parameter tested using comphet_index.csv
+
+### comphet_index.csv
+file containing com-het index values for each dataset simulated
