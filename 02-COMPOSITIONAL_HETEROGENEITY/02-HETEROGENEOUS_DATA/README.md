@@ -17,3 +17,6 @@ com-het index values for each simulated dataset
 
 ### chunkify_comphet_trees.pl
 recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recoding and generates shell scripts for maximum-likelihood analyses in RAxML
+
+### is_mono.pl
+scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
