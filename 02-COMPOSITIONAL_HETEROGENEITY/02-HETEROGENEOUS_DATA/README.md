@@ -16,4 +16,4 @@ produces a scatter plot showing the relationship between the length of internode
 com-het index values for each simulated dataset
 
 ### chunkify_comphet_trees.pl
-recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recoding and generates shell scripts to perform maximum likelihood analyses in RAxML
+recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recoding and generates shell scripts for maximum-likelihood analyses in RAxML
