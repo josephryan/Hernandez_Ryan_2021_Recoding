@@ -8,4 +8,4 @@ to run:
 `perl split_random_runs.pl TREE0008`
 
 ### get_random_comphets.pl
-shell scripts generated from split_random_runs.pl implement this script to produce datasets with no induced compositional heterogeneity
+shell scripts generated from split_random_runs.pl implement the get_random_comphets.pl script to produce datasets with no induced compositional heterogeneity
