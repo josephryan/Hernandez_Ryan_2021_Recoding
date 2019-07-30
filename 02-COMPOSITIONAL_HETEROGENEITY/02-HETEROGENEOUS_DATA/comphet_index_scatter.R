@@ -1,4 +1,4 @@
-setwd("~/Dropbox/Dissertation/Ctenophore-Sponge_Debate/fig_comphet")
+setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA")
 data <- read.csv('Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA/comphet_index.csv')
 library(ggplot2)
 p <-ggplot(data, aes(x=Tree, y=Comp.het.index)) + geom_point() + facet_wrap(vars(Inflation.parameter), scales = "free", dir="v")
