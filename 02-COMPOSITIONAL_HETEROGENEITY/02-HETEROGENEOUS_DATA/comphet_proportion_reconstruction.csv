@@ -1,0 +1,49 @@
+tree,inflation parameter,proportion,type
+Tree 0.008,0.1,0.001,Dayhoff
+Tree 0.008,0.5,0.001,Dayhoff
+Tree 0.008,0.9,0.002,Dayhoff
+Tree 0.004,0.1,0.021,Dayhoff
+Tree 0.004,0.5,0.021,Dayhoff
+Tree 0.004,0.9,0.065,Dayhoff
+Tree 0.002,0.1,0.143,Dayhoff
+Tree 0.002,0.5,0.156,Dayhoff
+Tree 0.002,0.9,0.275,Dayhoff
+Tree 0.001,0.1,0.336,Dayhoff
+Tree 0.001,0.5,0.393,Dayhoff
+Tree 0.001,0.9,0.518,Dayhoff
+Tree 0.008,0.1,0.02,Dayhoff-6 Recoded
+Tree 0.008,0.5,0.025,Dayhoff-6 Recoded
+Tree 0.008,0.9,0.03,Dayhoff-6 Recoded
+Tree 0.004,0.1,0.164,Dayhoff-6 Recoded
+Tree 0.004,0.5,0.169,Dayhoff-6 Recoded
+Tree 0.004,0.9,0.18,Dayhoff-6 Recoded
+Tree 0.002,0.1,0.367,Dayhoff-6 Recoded
+Tree 0.002,0.5,0.354,Dayhoff-6 Recoded
+Tree 0.002,0.9,0.392,Dayhoff-6 Recoded
+Tree 0.001,0.1,0.551,Dayhoff-6 Recoded
+Tree 0.001,0.5,0.581,Dayhoff-6 Recoded
+Tree 0.001,0.9,0.59,Dayhoff-6 Recoded
+Tree 0.008,0.1,0.001,JTT
+Tree 0.008,0.5,0,JTT
+Tree 0.008,0.9,0.003,JTT
+Tree 0.004,0.1,0.021,JTT
+Tree 0.004,0.5,0.026,JTT
+Tree 0.004,0.9,0.062,JTT
+Tree 0.002,0.1,0.136,JTT
+Tree 0.002,0.5,0.135,JTT
+Tree 0.002,0.9,0.242,JTT
+Tree 0.001,0.1,0.322,JTT
+Tree 0.001,0.5,0.367,JTT
+Tree 0.001,0.9,0.484,JTT
+Tree 0.008,0.1,0.018,S&R-6 Recoded
+Tree 0.008,0.5,0.03,S&R-6 Recoded
+Tree 0.008,0.9,0.034,S&R-6 Recoded
+Tree 0.004,0.1,0.144,S&R-6 Recoded
+Tree 0.004,0.5,0.157,S&R-6 Recoded
+Tree 0.004,0.9,0.163,S&R-6 Recoded
+Tree 0.002,0.1,0.372,S&R-6 Recoded
+Tree 0.002,0.5,0.354,S&R-6 Recoded
+Tree 0.002,0.9,0.399,S&R-6 Recoded
+Tree 0.001,0.1,0.551,S&R-6 Recoded
+Tree 0.001,0.5,0.556,S&R-6 Recoded
+Tree 0.001,0.9,0.562,S&R-6 Recoded
