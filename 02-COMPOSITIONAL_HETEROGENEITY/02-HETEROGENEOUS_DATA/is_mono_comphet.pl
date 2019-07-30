@@ -47,7 +47,8 @@ sub mono_test{
         my @file = split/\//, $t;
         foreach my $file (@file){
             if ($file=~m/^RAxML_bestTree/){
-                my $outab = `parapruner_is_mono.py -t $t -l $csvab -r $rootab`;
+                my $outab = `python parapruner_is_mono.py -t $t -l $csvab -r $rootab`;
+#                my $outab = `parapruner_is_mono.py -t $t -l $csvab -r $rootab`;
                 my $hitab = is_false($outab);
                 if ($hitab){
                     $non_mono{$file} = 1;

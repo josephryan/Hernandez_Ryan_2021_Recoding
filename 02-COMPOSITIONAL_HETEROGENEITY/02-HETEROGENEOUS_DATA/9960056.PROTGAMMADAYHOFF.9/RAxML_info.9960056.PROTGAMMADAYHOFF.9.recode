@@ -1,0 +1,68 @@
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 420 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 420
+Name: No Name Provided
+DataType: Multi-State with 9 distinct states in use (maximum 32)
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -p 420 -m MULTIGAMMA -n 9960056.PROTGAMMADAYHOFF.9.recode -w /bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/test/9960056.PROTGAMMADAYHOFF.9 -s 9960056.0.9.phy.recode.PROTGAMMADAYHOFF.9 -K GTR 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.225 0.246 0.068 0.181 0.137 0.072 0.040 0.020 0.011 
+
+Inference[0]: Time 21.039169 GAMMA-based likelihood -7679.004222, best rearrangement setting 5
+alpha[0]: 0.423702 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7679.000925 tree written to file /bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/test/9960056.PROTGAMMADAYHOFF.9/RAxML_result.9960056.PROTGAMMADAYHOFF.9.recode
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7679.000925 .... 
+
+Final GAMMA-based Score of best tree -7679.000925
+
+Program execution info written to /bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/test/9960056.PROTGAMMADAYHOFF.9/RAxML_info.9960056.PROTGAMMADAYHOFF.9.recode
+Best-scoring ML tree written to: /bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/test/9960056.PROTGAMMADAYHOFF.9/RAxML_bestTree.9960056.PROTGAMMADAYHOFF.9.recode
+
+Overall execution time: 27.981360 secs or 0.007773 hours or 0.000324 days
+

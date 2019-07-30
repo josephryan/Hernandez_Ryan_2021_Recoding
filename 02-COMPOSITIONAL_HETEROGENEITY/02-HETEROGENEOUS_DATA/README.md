@@ -22,4 +22,7 @@ recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recodi
 scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
 
 ### parapruner_is_mono.py
-is_mono.pl implements parapruner_is_mono.py to test if trees recovered the two compositionally heterogeneous 10-taxa clades (i.e., a clade containing all A and B taxa and a clade containing all C and D taxa)  
+is_mono.pl implements parapruner_is_mono.py to test if trees recovered the two compositionally heterogeneous 10-taxa clades (i.e., a clade containing all A and B taxa and a clade containing all C and D taxa) 
+
+### comphet_bargraph.R 
+produces a bar graph  
