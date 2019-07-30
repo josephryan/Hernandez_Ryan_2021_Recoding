@@ -31,7 +31,7 @@ produces a bar graph showing the percentage of incorrect trees reconstructed und
 proportion of incorrect trees for each phylogenetic reconstruction method, tree used for simulation, and level of compositional heterogeneity
 
 ### ztest_proportions_comphet.R 
-perform z-tests on the proportions of incorrect trees reconstructed under recoded and non-recoded methods using ztest_comphet_proportions.csv
+performs z-tests on the proportions of incorrect trees reconstructed under recoded and non-recoded methods using ztest_comphet_proportions.csv
 
 ### ztest_comphet_proportions.csv
 number of incorrect trees reconstructed for each phylogenetic method, trees used for simulation, and level of compositional heterogeneity (inflation parameter)
