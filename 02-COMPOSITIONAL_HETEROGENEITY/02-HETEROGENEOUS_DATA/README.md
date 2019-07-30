@@ -25,7 +25,7 @@ scores trees to determine the proportion of incorrect trees that were reconstruc
 is_mono.pl implements parapruner_is_mono.py to test if trees recovered the two compositionally heterogeneous 10-taxa clades (i.e., a clade containing all A and B taxa and a clade containing all C and D taxa) 
 
 ### comphet_bargraph.R 
-produces a bar graph showing the percentage of incorrect trees reconstructed under each method, tree used for simulation, and inflation parameter tested using comp_het_proportion_reconstruction.csv
+produces a bar graph showing the percentage of incorrect trees reconstructed under each method, tree used for simulation, and level of compositional heterogeneity (inflation parameter) tested using comp_het_proportion_reconstruction.csv
 
 ### comp_het_proportion_reconstruction.csv
-proportion of incorrect trees for each phylogenetic reconstruction method, simulation tree, and inflation parameter.
+proportion of incorrect trees for each phylogenetic reconstruction method, simulation tree, and level of compositional heterogeneity.
