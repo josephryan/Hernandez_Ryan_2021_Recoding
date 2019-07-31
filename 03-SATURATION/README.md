@@ -1,5 +1,8 @@
 # Substitution saturation analyses
 
+### 00-DATA
+data used for simulations
+
 ### 01-SATUARTION_TEST
 simulation experiment to test if increasing the branch length scaling factor parameter in Seq-Gen increases instances of saturation
 
