@@ -1,4 +1,4 @@
-# Script to simulate compositionally heterogeneous datasets
+# Scripts to simulate and test compositionally heterogeneous datasets
 
 ### comphet.pl
 produces compositionally heterogeneous datasets using hypothetical trees 0.008, 0.004, 0.002, and 0.001 (trees available in this repo in 01-MODULES/CompHet.pm)  
