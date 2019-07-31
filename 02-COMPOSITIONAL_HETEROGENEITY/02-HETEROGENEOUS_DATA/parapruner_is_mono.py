@@ -24,7 +24,6 @@ def main(argv):
          root = arg
 
    list = leaves.split(',')
-#   print(root)
    t = Tree(tree)
    t.set_outgroup(root)
    print t.check_monophyly(values=list, target_attr="name")
