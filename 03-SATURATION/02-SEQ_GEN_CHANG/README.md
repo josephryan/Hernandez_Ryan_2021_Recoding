@@ -1,4 +1,4 @@
-#Simulations with the Chang et al. (2015) topology
+# Simulations with the Chang et al. (2015) topology
 
 ### 01-DAYHOFF
 simulations performed using the Dayhoff model
