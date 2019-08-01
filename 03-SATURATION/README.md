@@ -1,4 +1,4 @@
-# Substitution saturation analyses
+#Substitution saturation analyses
 
 ### 00-DATA
 data used for simulations
@@ -17,3 +17,6 @@ script that creates new directories for simulated data and parses the datasets i
 
 ### chunkify.pl
 converts simulated datasets to Dayhoff-6 recoded datasets and generates shell scripts to perform maximum-likelihood analyses in RAxML
+
+### compare_trees_to_sim.pl
+scores trees reconstructed from simulated datasets using the Robinson-Foulds distance, performs t-tests on scores, and generates box-plots to visualize the data 
