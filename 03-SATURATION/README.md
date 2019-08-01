@@ -25,4 +25,7 @@ scores trees reconstructed from simulated datasets using the Robinson-Foulds dis
 produces a line graph with median Robinson-Foulds distances for each tree, model, and branch length scaling factor parameter tested using medians.csv
 
 ### medians.csv 
-median Robinson-Foulds distances of trees reconstructed using recoding and non-recoding methods 
+median Robinson-Foulds distances of trees reconstructed using recoding and non-recoding methods
+
+### chunkify_LG.pl
+generates shell scripts to perform maximum-likelihood analyses in RAxML using the LG model on datasets that were simulated using the Chang et al. (2015) topology and branch length scaling factors 1, 5, 10, 15, and 20
