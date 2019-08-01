@@ -29,3 +29,6 @@ median Robinson-Foulds distances of trees reconstructed using recoding and non-r
 
 ### chunkify_LG.pl
 generates shell scripts to perform maximum-likelihood analyses in RAxML using the LG model on datasets that were simulated using the Chang et al. (2015) topology and branch length scaling factors 1, 5, 10, 15, and 20
+
+### compare_trees_to_sim_LG.pl
+uses the Robinson-Foulds distance to score trees reconstructed from simulated datasets with the LG model, performs t-tests on scores, and generates box-plots to visualize the data
