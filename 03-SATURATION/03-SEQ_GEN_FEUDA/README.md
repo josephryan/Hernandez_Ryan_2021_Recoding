@@ -1,4 +1,7 @@
-# Simulations using the Dayhoff model
+# Simulations with the Feuda et al. (2017) topology
 
-### run_seqgen_pam_feuda.sh
-shell script to reproduce simulations performed in Seq-Gen
+# 01-DAYHOFF
+simulations performed using the Dayhoff model
+
+# 02-JTT
+simulation performed using the JTT model
