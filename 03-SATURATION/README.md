@@ -11,3 +11,6 @@ simulation of saturated datasets using the Chang et al. (2015) topology
 
 ### 03-SEQ_GEN_FEUDA
 simulation of saturated datasets using the Feuda et al. (2017) topology
+
+### divide.pl
+script that creates new directories for simulated data and parses these datasets into separate PHYLIP files within corresponding directories
