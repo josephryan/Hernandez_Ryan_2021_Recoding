@@ -19,4 +19,10 @@ script that creates new directories for simulated data and parses the datasets i
 converts simulated datasets to Dayhoff-6 recoded datasets and generates shell scripts to perform maximum-likelihood analyses in RAxML
 
 ### compare_trees_to_sim.pl
-scores trees reconstructed from simulated datasets using the Robinson-Foulds distance, performs t-tests on scores, and generates box-plots to visualize the data 
+scores trees reconstructed from simulated datasets using the Robinson-Foulds distance, performs t-tests on scores, and generates box-plots to visualize the data
+
+### robinson_foulds_medians_fig.r
+produces a line graph with median Robinson-Foulds distances for each tree, model, and branch length scaling factor parameter tested using medians.csv
+
+### medians.csv 
+median Robinson-Foulds distances of trees reconstructed using recoding and non-recoding methods 
