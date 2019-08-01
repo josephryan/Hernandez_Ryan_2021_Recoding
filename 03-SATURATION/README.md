@@ -14,3 +14,6 @@ simulation of saturated datasets using the Feuda et al. (2017) topology
 
 ### divide.pl
 script that creates new directories for simulated data and parses the datasets into separate PHYLIP files within corresponding directories
+
+### chunkify.pl
+converts simulated datasets to Dayhoff-6 recoded datasets and generates shell scripts to perform maximum-likelihood analyses in RAxML
