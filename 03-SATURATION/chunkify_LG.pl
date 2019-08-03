@@ -14,7 +14,7 @@ use Servers;
 our $VERSION = 0.02;
 
 our $DIR = Cwd::getcwd();
-our @SUBDIRS = qw(01-SEQ_GEN_CHANG);
+our @SUBDIRS = qw(02-SEQ_GEN_CHANG);
 our @SUBSUBDIRS = qw(01-DAYHOFF 02-JTT);
 our $OUTDIR = 'LG_scripts';
 our %SUBSET = (1 => 1, 5 => 1, 10 => 1, 15 => 1, 20 => 1); # set to () if no sub

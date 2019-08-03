@@ -6,7 +6,7 @@ use autodie;
 use Data::Dumper;
 use POSIX qw(ceil);
 use Cwd;
-use lib qw(/bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/JFR/);
+use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
 use Servers;
 
 # this script generate shell scripts to be launched on your servers or operating systems.
