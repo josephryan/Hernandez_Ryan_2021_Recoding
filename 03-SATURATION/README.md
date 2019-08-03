@@ -12,6 +12,9 @@ simulation of saturated datasets using the Chang et al. (2015) topology
 ### 03-SEQ_GEN_FEUDA
 simulation of saturated datasets using the Feuda et al. (2017) topology
 
+### 04-ESTIMATED_MODEL
+simulation of saturated datasets using the parameters estimated from the Chang et al. (2015) dataset
+
 ### divide.pl
 script that creates new directories for simulated data and parses the datasets into separate PHYLIP files within corresponding directories
 
