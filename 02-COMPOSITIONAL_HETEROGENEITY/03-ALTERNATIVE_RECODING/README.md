@@ -17,4 +17,16 @@ to run :
 
 `mkdir 9scheme_scripts`
 
-`perl chunkify_nscheme_recoding.pl 9 9scheme_scripts` 
+`perl chunkify_nscheme_recoding.pl 9 9scheme_scripts`
+
+`mkdir 12scheme_scripts`
+
+`perl chunkify_nscheme_recoding.pl 12 12scheme_scripts`
+
+`mkdir 15scheme_scripts`
+
+`perl chunkify_nscheme_recoding.pl 15 15scheme_scripts`
+
+`mkdir 18scheme_scripts`
+
+`perl chunkify_nscheme_recoding.pl 18 18scheme_scripts` 
