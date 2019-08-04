@@ -6,3 +6,6 @@ scores binning strategies based on the Dayhoff matrix; the score is the sum of i
 to run:
 
 `perl score.pl DEHNQ ILMV FY AST KR G P C Q`
+
+### DAYHOFF
+Dayhoff matrix
