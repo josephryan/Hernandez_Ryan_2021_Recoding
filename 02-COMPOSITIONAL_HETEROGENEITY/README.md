@@ -7,4 +7,4 @@ simulations of datasets with no induced compositional heterogeneity
 simulation of datasets with induced compositional heterogeneity
 
 ### 03-ALTERNATIVE_RECODING
-scripts that test alternative recoding strategies
+scripts to test alternative recoding strategies
