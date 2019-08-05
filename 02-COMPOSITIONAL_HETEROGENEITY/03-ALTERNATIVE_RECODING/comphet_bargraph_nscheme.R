@@ -1,4 +1,4 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA")
+setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/03-ALTERNATIVE_RECODING")
 data <- read.csv('comphet_proportion_nscheme.csv')
 data$proportion <- data$proportion*100
 names(data)[2]<-"percent"
