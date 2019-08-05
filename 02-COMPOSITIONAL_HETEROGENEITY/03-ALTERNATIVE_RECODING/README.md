@@ -29,4 +29,10 @@ to run :
 
 `mkdir 18scheme_scripts`
 
-`perl chunkify_nscheme_recoding.pl 18 18scheme_scripts` 
+`perl chunkify_nscheme_recoding.pl 18 18scheme_scripts`
+
+### comphet_bargraph_nscheme.R
+produces are bar graph showing the percentage of incorrect trees reconstructed under each alternative recoding strategy, as well as under Dayhoff 6-state recoding, and non-recoding under the Dayhoff model using comphet_proportion_nscheme.csv
+
+### comphet_proportion_nscheme.csv
+proportion of incorrect trees reconstructed using alternative recoding strategies, Dayhoff 6-state recoding, and non-recoding with the Dayhoff model
