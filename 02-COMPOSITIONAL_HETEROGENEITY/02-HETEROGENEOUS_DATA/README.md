@@ -9,6 +9,9 @@ to run:
 
 INFL is the inflation parameter and NULL.out is the null distribution of comp-het indices (produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
 
+### TREE0008, TREE0004, TREE0002, and TREE0001
+empty directories in which to simulate compositionally heterogeneous datasets
+
 ### comphet_index_scatter.R 
 produces a scatter plot showing the relationship between the length of internode branches for each tree and comp-het index values for each inflation parameter tested using comphet_index.csv
 
