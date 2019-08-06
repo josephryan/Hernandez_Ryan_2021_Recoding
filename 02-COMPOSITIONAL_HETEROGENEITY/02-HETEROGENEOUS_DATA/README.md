@@ -9,7 +9,7 @@ to run:
 
 INFL is the inflation parameter and NULL.out is the null distribution of comp-het indices (produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
 
-### TREE0008, TREE0004, TREE0002, and TREE0001
+### 01-TREE0008.1, 02-TREE0008.5, 03-TREE0008.9, 04-TREE0004.1, 05-TREE0004.5, 06-TREE0004.9, 07-TREE0002.1, 08-TREE0002.5, 09-TREE0002.9, 10-TREE0001.1, 11-TREE0001.5, and 12-TREE0001.9
 empty directories in which to simulate compositionally heterogeneous datasets
 
 ### comphet_index_scatter.R 
