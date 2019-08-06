@@ -10,5 +10,5 @@ to run:
 ### get_random_comphets.pl
 shell scripts generated from split_random_runs.pl implement the get_random_comphets.pl script to produce datasets with no induced compositional heterogeneity
 
-### TREE0008, TREE0004, TREE0002, and TREE0001
+### 01-TREE0008, 02-TREE0004, 03-TREE0002, and 04-TREE0001
 empty directories in which to simulate datasets for null distributions
