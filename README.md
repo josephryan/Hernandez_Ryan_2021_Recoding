@@ -1,13 +1,13 @@
 # Recoding simulation analyses
 
 ### Background
-Models of protein evolution or amino acid replacement models are used to score amino acid substitutions in sequence alignments or phylogenetic analyses. The Dayhoff and JTT matrices are examples of 20-state amino acid replacement models. Recently, recoding techniques have been employed to address difficulties that these models have dealing with compositional heterogeneity and substitution saturation (Susko & Roger 2007). Dayhoff recoding (i.e., Dayhoff 6-state recoding) specifically recodes amino acids from Dayhoff matrices according to 6 groups of chemically related amino acids that frequently replace one another (Hrdy et al. 2005), while JTT recoding (i.e., S&R 6-state recoding) is based off of binning experiments on the JTT model by Susko & Roger (2007). 
+Models of protein evolution or amino acid replacement models are used to score amino acid substitutions in sequence alignments or phylogenetic analyses. The Dayhoff and JTT matrices are examples of 20-state amino acid replacement models. Recently, recoding techniques have been employed to address difficulties that these models have dealing with compositional heterogeneity and substitution saturation (Susko & Roger 2007). Dayhoff recoding (i.e., Dayhoff 6-state recoding) specifically recodes amino acids from Dayhoff matrices according to 6 groups of chemically related amino acids that frequently replace one another (Hrdy et al. 2005), while JTT recoding (i.e., S&R 6-state recoding) is based on binning experiments using the JTT model by Susko & Roger (2007). 
 
 ### Rationale
 The principle of using recoding to address compositional heterogeneity and substitution saturation has never been extensively tested. Evidence from our analysis presented at the SICB 2018 Conference showed that under all saturation simulations in the study, Dayhoff 6-state recoding performed worse than the PAM250 (Dayhoff) model. These preliminary results raise doubts about the benefits of using recoding approaches. 
 
 ### Objectives
-The objective of this study is to test the performance of recoding under a gradient of compositional heterogeneity and saturation to determine if recoding is appropriate to combat the effects of both of these challenges to phylogenetic analyses. To do this we will perform simulations to evaluate the effect of two different types of recoding (i.e., Dayhoff 6-state recoding and S&R 6-state recording) applied to simulated data matrices that are evolved using the model that corresponds to the basis of the particular recoding strategy (i.e. PAM250 for Dayhoff 6-state recoding and JTT for S&R 6-state recoding). Sequences will be simulated on the topologies from Chang et al. (2015) and Feuda et al. (2017). These are two different topologies based on the same dataset, which includes a wide range of animals and a few closely related outgroups. 
+The objective of this study is to test the effectiveness of 6-state recoding by comparing the performance of analyses on recoded and non-recoded datasets that have been simulated under gradients of compositional heterogeneity or saturation. In addition, we evaluate alternative recoding strategies using 9, 12, 15, and 18 states. 
 
 ### 00-PHYLOTOCOL
 directory in which we have layed out all planned analyses
@@ -15,9 +15,11 @@ directory in which we have layed out all planned analyses
 ### 01-MODULES
 perl modules used by multiple scripts in this repo
 
-### 01-SATURATION_TEST
-directory with test to look for correlation between branch-length 
-scaling factor and saturation
+### 02-COMPOSITIONAL_HETEROGENEITY
+all scripts and data employed in our compositional heterogeneity analysis
+
+### 03-SATURATION
+all scripts and data employed in our saturation analysis
 
 ### LICENSE
     Copyright (C) 2018, Hernandez and Ryan
