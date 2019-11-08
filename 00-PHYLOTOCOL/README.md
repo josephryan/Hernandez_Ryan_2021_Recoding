@@ -17,4 +17,4 @@ Changed methods in section 2.3 because we could not adequately simulate and test
 We added methods under section 2.3.7 to test for statistical significance of results from 2.3.6. We also added section 2.4 to test alternative Dayhoff recoding strategies.
 
 ### phylotocol_recodingextension_v1.4.pdf
-We added additional analyses in sections 2.5-2.9 after receiving comments from reviewers through our submission to *Systematic Biology*. We have also updated the language in section 2.3.1 for clarity.
+We added additional analyses in sections 2.5-2.9 after receiving comments from reviewers through our submission to *Systematic Biology*. We also updated the language in section 2.3.1 for clarity of methods.
