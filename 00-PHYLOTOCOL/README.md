@@ -18,3 +18,6 @@ We added methods under section 2.3.7 to test for statistical significance of res
 
 ### phylotocol_recodingextension_v1.4.pdf
 We added additional analyses in sections 2.5-2.9 after receiving comments from reviewers through our submission to *Systematic Biology*. We also updated the language in section 2.3.1 for clarity of methods.
+
+### phylotocol_recodingextension_v1.5.pdf
+After consulting with several scientists about the proposed statistics in section 2.9 in the previous version of our phylotocol, we are making necessary corrections in section 3.1. We are also adding additional analyses under sections 3.2-3.3 to further explore our results after completing analyses from sections 2.5-2.8. 
