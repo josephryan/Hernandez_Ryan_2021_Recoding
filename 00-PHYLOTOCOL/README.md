@@ -21,3 +21,6 @@ We added additional analyses in sections 2.5-2.9 after receiving comments from r
 
 ### phylotocol_recodingextension_v1.5.pdf
 After consulting with several scientists about the proposed statistics in section 2.9 in the previous version of our phylotocol, we are making necessary corrections in section 3.1. We are also adding additional analyses under sections 3.2-3.3 to further explore our results after completing analyses from sections 2.5-2.8. 
+
+### phylotocol_recodingextension_v1.5.1.pdf
+We updated our phylotocol with the appropriate commands to perform analyses in sections 2.6-2.8 and 3.2.
