@@ -10,7 +10,7 @@ use POSIX qw(ceil);
 use lib qw(../../01-MODULES/);
 use Servers;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 our $DIR = Cwd::getcwd();
 our $OUTDIR = 'scripts';
