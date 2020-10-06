@@ -9,10 +9,11 @@ use warnings;
 use Data::Dumper;
 
 our $DIR      = 'matrices';
+our $VERSION  = 0.02;
 
 MAIN: {
-    my $code = $ARGV[0] or die "usage: $0 'CODE OF 20AAS IN BLOCKS LIKE THIS'\n";
-    my $ra_code = get_code_mat($code);
+    my @code = @ARGV or die "usage: $0 'CODE OF 20AAS IN BLOCKS LIKE THIS: DEHNQ ILMV FY AST KR G P C W'\n";
+    my $ra_code = get_code_mat(\@code);
 
     my $matrix = "$DIR/DAYHOFF";
     my $rh_dmat = get_mat($matrix);    
@@ -20,17 +21,18 @@ MAIN: {
     foreach my $ra_c (@{$ra_code}) {
         $sc += score($rh_dmat,$ra_c);
     }         
-print "\$sc = $sc\n";
+    print "Sum of intra-bin substitution scores = $sc\n";
 }         
 
 sub get_code_mat {
-    my $code = shift;
-    chomp $code;
+    my $ra_code = shift;
     my @mat = ();
-    my @chunks = split /\s+/, $code;
-    foreach my $ch (@chunks) {
-        my @subchunk = split //, $ch;
-        push @mat, \@subchunk;
+    foreach my $code (@{$ra_code}) {
+        my @chunks = split /\s+/, $code;
+        foreach my $ch (@chunks) {
+            my @subchunk = split //, $ch;
+            push @mat, \@subchunk;
+        }
     }
     return \@mat;
 }
