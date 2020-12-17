@@ -4,7 +4,8 @@ Phylotocol is a system for documenting a priori, planned phylogenetic analyses, 
 See the publication (https://academic.oup.com/sysbio/article/68/4/672/5267839) and github repo (https://github.com/josephryan/phylotocol) for more info about phylotocol.
 
 ##### phylotocol_recoding_v1.pdf
-Original planned analyses. These did not include analyses of compositional heterogeneity.
+Original planned analyses. These did not include analyses of compositional heterogeneity
+
 ---
 
 # MAIN PHYLOTOCOLS
