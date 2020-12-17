@@ -1,11 +1,16 @@
 # Planned analyses
 
-### phylotocol_recoding_v1.pdf
-Document laying out planned analyses.
-See https://github.com/josephryan/phylotocol for more info.
+Phylotocol is a system for documenting a priori, planned phylogenetic analyses, and providing details related to changes to the original protocol through updated versioning.
+See the publication (https://academic.oup.com/sysbio/article/68/4/672/5267839) and github repo (https://github.com/josephryan/phylotocol) for more info about phylotocol.
+
+##### phylotocol_recoding_v1.pdf
+Original planned analyses. These did not include analyses of compositional heterogeneity.
+---
+
+#MAIN PHYLOTOCOLS
 
 ### phylotocol_recodingextension_v1.0.pdf
-Our analysis did not address compositional heterogeneity and since we used the same model for simulation and testing, we did not consider problems stemming from poor model fit. As such, this phylotocol serves as an extension of our previous analysis (phylotocol_recoding_v1.pdf) to address these concerns.
+Our analysis did not address compositional heterogeneity and since we used the same model for simulation and testing, we did not consider problems stemming from poor model fit. As such, this phylotocol serves as an extension of our previous phylotocol (phylotocol_recoding_v1.pdf) to address these concerns.
 
 ### phylotocol_recodingextension_v1.1.pdf
 Changed the way we will perform simulations and calculations of compositional heterogeneity in section 2.3 of the phylotocol by using straightforward methods in P4 (Foster 2004). 
