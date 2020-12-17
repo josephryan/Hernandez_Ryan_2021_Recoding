@@ -7,7 +7,7 @@ See the publication (https://academic.oup.com/sysbio/article/68/4/672/5267839) a
 Original planned analyses. These did not include analyses of compositional heterogeneity.
 ---
 
-#MAIN PHYLOTOCOLS
+# MAIN PHYLOTOCOLS
 
 ### phylotocol_recodingextension_v1.0.pdf
 Our analysis did not address compositional heterogeneity and since we used the same model for simulation and testing, we did not consider problems stemming from poor model fit. As such, this phylotocol serves as an extension of our previous phylotocol (phylotocol_recoding_v1.pdf) to address these concerns.
