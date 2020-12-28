@@ -1,4 +1,4 @@
-setwd("~/Dropbox/Dissertation/Ctenophore-Sponge_Debate/fig_comphet")
+setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION/03-TREE0002/")
 data <- read.csv('tree0.002_proportions.csv')
 data$proportion <- data$proportion*100
 names(data)[2]<-"percent"
