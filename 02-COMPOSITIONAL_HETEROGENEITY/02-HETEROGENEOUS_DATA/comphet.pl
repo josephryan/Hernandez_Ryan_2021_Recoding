@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Data::Dumper;
 use List::Util qw(shuffle);
-use lib qw(/bwdata1/ahernandez6/07-RECODING_ANALYSIS/06-PUB_SCRIPTS/JFR/);
+use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
 use CompHet;
 use Cwd;
 
