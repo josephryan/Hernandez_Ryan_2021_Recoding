@@ -1,0 +1,17 @@
+inflation parameter,proportion,type
+0,0.144,Dayhoff
+0.1,0.143,Dayhoff
+0.5,0.156,Dayhoff
+0.9,0.275,Dayhoff
+0,0.406,Dayhoff-6 Recoded
+0.1,0.367,Dayhoff-6 Recoded
+0.5,0.354,Dayhoff-6 Recoded
+0.9,0.392,Dayhoff-6 Recoded
+0,0.13,JTT
+0.1,0.136,JTT
+0.5,0.135,JTT
+0.9,0.242,JTT
+0,0.358,S&R-6 Recoded
+0.1,0.372,S&R-6 Recoded
+0.5,0.354,S&R-6 Recoded
+0.9,0.399,S&R-6 Recoded
