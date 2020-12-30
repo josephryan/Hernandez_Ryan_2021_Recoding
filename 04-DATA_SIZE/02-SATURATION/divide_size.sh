@@ -1,0 +1,11 @@
+#!/bin/sh
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.2000.1.phy Chang.2000.1
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.2000.5.phy Chang.2000.5
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.2000.10.phy Chang.2000.10
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.2000.15.phy Chang.2000.15
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.2000.20.phy Chang.2000.20
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.5000.1.phy Chang.5000.1
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.5000.5.phy Chang.5000.5
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.5000.10.phy Chang.5000.10
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.5000.15.phy Chang.5000.15
+perl /bwdata1/ahernandez6/06-DAYHOFF_RECODING_ANALYSIS/01-PRELIM/02-SIMULATIONS/divide.pl Chang.5000.20.phy Chang.5000.20

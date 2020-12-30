@@ -11,7 +11,9 @@ use Storable;
 use File::Temp;
 use Cwd;
 
-our $CHANG_TREE = '/Hernandez_Ryan_2019_RecodingSim/03-SATURATION/00-DATA/Chang_orig_phylobayes.tre';
+our $VERSION = 0.02;
+
+our $CHANG_TREE = '/../00-DATA/Chang_orig_phylobayes.tre';
 our $DIR  = Cwd::getcwd();
 
 our $R = Statistics::R->new();
@@ -80,7 +82,7 @@ sub get_ssdata {
     my %ssdata = ();
     my ($ra_trees,$ra_rc_trees) = get_trees ("$DIR");
     for (my $i = 0; $i < @{$ra_trees}; $i++) {
-            $ra_trees->[$i] =~ m/Chang\.mismatch\.(\d+)/ or die "unexpected";
+            $ra_trees->[$i] =~ m/Chang\.mismatch\.|(\d+\.\d+)/ or die "unexpected";
             my $brlen_bin = $1;
             my $reftree = $CHANG_TREE;
             my $reftree_dat          = get_file_contents($reftree);
@@ -134,6 +136,7 @@ sub get_trees {
              die "missing: $dir/$ssd/$sssd/RAxML_bestTree.$sssd.recode" unless (-e "$dir/$ssd/$sssd/RAxML_bestTree.$sssd.recode");
              push @trees, "$dir/$ssd/$sssd/RAxML_bestTree.$sssd";
              push @rc_trees, "$dir/$ssd/$sssd/RAxML_bestTree.$sssd.recode";
+}
         }
     }
     print "\n";
