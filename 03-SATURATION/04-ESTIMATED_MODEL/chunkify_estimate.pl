@@ -1,12 +1,15 @@
 #!/usr/bin/perl
 
+$|++;
+
 use strict;
 use warnings;
 use autodie;
 use Data::Dumper;
 use POSIX qw(ceil);
 use Cwd;
-use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
+#use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
+use lib qw(../01-MODULES/);
 use Servers;
 
 # this script generate shell scripts to be launched on your servers or operating systems.
@@ -33,9 +36,9 @@ MAIN: {
             open(my $out, ">", "$OUTDIR/$server.$i.sh");
             for (my $j = 1; $j <= $cmds_per_script; $j++) {
                 my $aln = $ra_alns->[$index];
+                next if (not defined $aln);
                 my $mod = 'PROTGAMMADAYHOFF';
-                next if ($aln =~ m/recode/); # rerun problem
-                $aln =~ m/(.*)\/(\d+)\.phy$/ or die "unexpected regex:$aln";
+                $aln =~ m/(.*)\/(.*)\.phy$/ or die "unexpected regex:$aln";
                 my $sd = $1;
                 my $num = $2;
                 mkdir "$sd/$num.$mod" unless -d ("$sd/$num.$mod");
@@ -76,7 +79,7 @@ sub get_alns {
     foreach my $sd (@sdirs) {
         next if ($sd=~m/scripts/); #rerun problem
         opendir (my $dh2, "$dir/$sd");
-        my @files = grep { !/^\./ && -f "$dir/$sd/$_" } readdir($dh2);
+        my @files = grep { /\.phy$/ && -f "$dir/$sd/$_" } readdir($dh2);
         foreach my $phy (@files){
             push @alns, "$dir/$sd/$phy";
         }
