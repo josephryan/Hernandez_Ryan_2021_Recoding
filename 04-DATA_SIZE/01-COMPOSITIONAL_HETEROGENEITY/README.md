@@ -15,3 +15,5 @@ produces a bar graph showing the percentage of incorrect trees reconstructed und
 
 ### is_mono.pl
 symbolic link for script that scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
+
+`perl is_mono.pl MODEL (DAYHOFF OR JTT) > is_mono.out`
