@@ -6,6 +6,10 @@ directories in which to simulate compositionally heterogeneous datasets
 ### comphet.pl
 symbolic link for script that produces compositionally heterogeneous datasets using Chang tree (available in this repo in 01-MODULES/CompHet.pm)
 
+`perl comphet.pl TREE000C INFL LENGTH PAIRING NULL.out > pvals.out`
+
+INFL is the inflation parameter, LENGTH is the sequence length for simulation, PAIRING is the starting amino acid frequency pairings (i.e., alphabetical or random) used by our algorithm to simulate compositional heterogeneity, and NULL.out is the null distribution of comp-het indices (produced by using the scripts in 02-COMPOSITIONAL_HETEROGENEITY/01-NULL_DISTRIBUTION in this repo)
+
 ### is_mono.pl
 symbolic link for script that scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
 
