@@ -1,5 +1,8 @@
 # Scripts to simulate and test compositionally heterogeneous datasets of varying size
 
+### comphet.pl
+symbolic link for script that produces compositionally heterogeneous datasets using hypothetical tree 0.002 (available in this repo in 01-MODULES/CompHet.pm)
+
 ### 01-TREE0002.1.2000, 02-TREE0002.5.2000, 03-TREE0002.9.2000, 04-TREE0002.1.3000, 05-TREE0002.5.3000, 06-TREE0002.9.3000, 07-TREE0002.1.4000, 08-TREE0002.5.4000, 09-TREE0002.9.4000, 10-TREE0002.1.5000, 11-TREE0002.5.5000, 12-TREE0002.9.5000
 directories in which to simulate compositionally heterogeneous datasets
 
