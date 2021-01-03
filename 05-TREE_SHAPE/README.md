@@ -17,3 +17,6 @@ symbolic link for script that recodes simulated datasets using Dayhoff 6-state r
 symbolic link for script that scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
 
 `perl is_mono.pl MODEL (DAYHOFF OR JTT) > is_mono.out`
+
+### comphet_bargraph_shape.R 
+produces a bar graph showing the percentage of incorrect trees reconstructed under each method and level of compositional heterogeneity (inflation parameter) tested. This script uses the file comp_het_chang_proportion.csv
