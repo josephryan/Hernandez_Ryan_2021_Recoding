@@ -7,4 +7,4 @@ simulation of datasets with increasing levels of compositional heterogeneity
 simulation of datasets with increasing levels of saturation
 
 ### chunkify_estimate.pl
-symbolic link for script that recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recoding and generates shell scripts for maximum-likelihood analyses in RAxML
+symbolic link for script that recodes simulated datasets using Dayhoff 6-state recoding and generates shell scripts for maximum-likelihood analyses in RAxML
