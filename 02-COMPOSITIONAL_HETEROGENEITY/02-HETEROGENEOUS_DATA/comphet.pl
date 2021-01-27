@@ -7,13 +7,18 @@ use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
 use CompHet;
 use Cwd;
 
-our $VERSION = 0.10;
+our $VERSION = 0.11;
 
 our $DIR = Cwd::getcwd();
 our $REPS = 1000; # number of replicates for each dataset 
 our @POSSIBLES = (1..1000000000);
 our $NUM_INFL = 1; # number of datasets for each replicate 
                    # each set increments inflation parameter by $INFL
+our $ANALYSIS = '';
+if ($ARGV[5] ){
+    $ANALYSIS = $ARGV[5];
+}
+
 MAIN: {
     my $tree = $ARGV[0] or die "usage $0 TREE000X INFL LENGTH PAIRINGS NULL\n";
     my $infl = $ARGV[1] or die "usage $0 TREE000X INFL LENGTH PAIRINGS NULL\n";
@@ -115,7 +120,7 @@ sub write_and_run_pycode {
     }
     my $str = join ",", @taxa;
     $str =~ s/,+/,/g;
-    my ($root, $node1, $node2) = JFR::CompHet::get_nodes($tree);
+    my ($root, $node1, $node2) = JFR::CompHet::get_nodes($ANALYSIS);
     my $xstr = join ',', @JFR::CompHet::CHANG_FREQ;
     my $ystr = join ',', @{$rh_f};
     my $chang_r = join ',', @JFR::CompHet::CHANG_RATE;
@@ -126,12 +131,26 @@ read("$tree")
 t = var.trees[0]
 a = func.newEmptyAlignment(dataType='protein', taxNames=[$str], length=$length)
 t.data = Data([a])
-x = t.newComp(free=1, spec='specified', symbol='A', val=[$xstr])
-y = t.newComp(free=1, spec='specified', symbol='B', val=[$ystr])
-t.setModelThing(x, node=$root, clade=1)
+x = t.newComp(free=1, spec='specified', symbol='X', val=[$xstr])
+y = t.newComp(free=1, spec='specified', symbol='Y', val=[$ystr])
+~;
+    if ($ANALYSIS eq 'RANDOM'){
+        my @nodes = qw(1 20 2 11 21 30 3 8 12 17 22 27 31 36 4 5 9 10 13 14 18 19 23 24 28 29 32 33 37 38 6 7 15 16 25 26 34 35);
+        my @setcomp = qw(x y);
+        my @elements = shuffle qw(0 1) x 20;
+        print OUT qq~t.setModelThing($setcomp[$elements[38]], node=t.root, clade=1)
+~;
+        foreach (my $i = 0; $i < 37; $i++){
+           print OUT qq~t.setModelThing($setcomp[$elements[$i]], node=$nodes[$i],clade=1); 
+~;
+        }
+    } else {
+    print OUT qq~t.setModelThing(x, node=$root, clade=1)
 t.setModelThing(y, node=$node1, clade=1)
 t.setModelThing(y, node=$node2, clade=1)
-t.newRMatrix(free=1, spec='specified', val=[$chang_r])
+~;
+    }
+print OUT qq~t.newRMatrix(free=1, spec='specified', val=[$chang_r])
 t.setNGammaCat(nGammaCat=4)
 t.newGdasrv(free=1, val=0.5)
 t.setPInvar(free=0, val=0.0)
@@ -204,4 +223,3 @@ sub get_seqs {
     }
     return \%seqs;
 } 
-
