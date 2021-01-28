@@ -45,4 +45,4 @@ proportion of incorrect trees for each phylogenetic reconstruction method, tree 
 performs chi-tests on the number of incorrect trees reconstructed under recoding and non-recoding methods using chisqrtest_comphet.csv
 
 ### chisqrtest_comphet.csv
-number of incorrect trees reconstructed for each phylogenetic method, trees used for simulation, and level of compositional heterogeneity (inflation parameter)
+number of incorrect trees reconstructed for each phylogenetic method, tree used for simulation, and level of compositional heterogeneity (inflation parameter)
