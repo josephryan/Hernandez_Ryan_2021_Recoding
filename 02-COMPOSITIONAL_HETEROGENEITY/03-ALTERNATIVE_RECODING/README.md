@@ -42,8 +42,8 @@ produces are bar graph using comphet_proportion_nscheme.csv to show the percenta
 ### comphet_proportion_nscheme.csv
 proportion of incorrect trees reconstructed using alternative recoding strategies, Dayhoff 6-state recoding, and non-recoding with the Dayhoff model
 
-### ztest_dayhoff_dayhoff18.R
-perform z-tests on the percentages of incorrect trees reconstructed under non-recoding using the Dayhoff model and the best scoring Dayhoff 18-state recoding strategy
+### deepsplits_chisq_dayhoff_v_dayhoff18.R
+perform chi-square tests on the number of incorrect trees reconstructed under non-recoding using the Dayhoff model and the best scoring Dayhoff 18-state recoding strategy
 
-### comphet_proportion_NR_v_18.csv
+### comphet_NR_v_18.csv
 number of incorrect trees reconstructed under non-recoding with the Dayhoff model and Dayhoff 18-state recoding
