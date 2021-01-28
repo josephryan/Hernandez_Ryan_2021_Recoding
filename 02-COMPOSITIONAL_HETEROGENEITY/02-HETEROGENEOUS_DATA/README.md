@@ -20,6 +20,11 @@ com-het index values for each simulated dataset
 ### chunkify_comphet_trees.pl
 recodes simulated datasets using Dayhoff 6-state recoding and S&R 6-state recoding and generates shell scripts for maximum-likelihood analyses in RAxML
 
+### rfd_comphet.pl
+scores trees reconstructed from simulated datasets using the Robinson-Foulds distance, performs t-tests on scores, and generates box-plots to visualize the data
+
+`perl rfd_comphet.pl TREE000X MODEL(e.g. DAYHOFF JTT DAYHOFF.9)`
+
 ### is_mono.pl
 scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
 
