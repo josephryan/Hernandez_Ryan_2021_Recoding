@@ -31,6 +31,11 @@ to run :
 
 `perl chunkify_nscheme_recoding.pl 18 18scheme_scripts`
 
+### is_mono.pl
+symbolic link for script that scores trees to determine the proportion of incorrect trees that were reconstructed under recoding and non-recoding approaches
+
+`perl is_mono.pl MODEL (DAYHOFF.9 DAYHOFF.12 DAYHOFF.15 DAYHOFF.18)`
+
 ### comphet_bargraph_nscheme.R
 produces are bar graph using comphet_proportion_nscheme.csv to show the percentage of incorrect trees reconstructed under each alternative recoding strategy, Dayhoff 6-state recoding, and non-recoding under the Dayhoff model
 
