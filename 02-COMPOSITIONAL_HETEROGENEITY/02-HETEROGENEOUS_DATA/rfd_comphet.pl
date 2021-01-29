@@ -9,11 +9,11 @@ use Statistics::R;
 use Data::Dumper;
 use Storable;
 use File::Temp;
-use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
+use lib qw(../../01-MODULES/);
 use CompHet;
 use Cwd;
 
-our $VERSION = 0.02;
+our $VERSION = 0.01;
 
 our $DIR = Cwd::getcwd();
 
@@ -25,31 +25,17 @@ our $MOD = $ARGV[1] or die "usage: $0 TREE000X MODEL (e.g. DAYHOFF JTT DAYHOFF.9
 
 our $SS_DATA_FILE = "ss_data.$MOD.storable";
 
-our $RCFV = $ARGV[2];
-
 MAIN: {
     my $rh_ssdata = get_ssdata();
     store $rh_ssdata, $SS_DATA_FILE;
-    my $rh_ssdata = retrieve($SS_DATA_FILE);
-    rboxplot($rh_ssdata) unless ($RCFV);
+    #my $rh_ssdata = retrieve($SS_DATA_FILE);
+    rboxplot($rh_ssdata);
     foreach my $infl (sort {$a <=> $b} keys %{$rh_ssdata}) {
-        if ($RCFV){
-	    print "$infl\n NRC\n";
-            for my $nrc (@{$rh_ssdata->{$infl}->{'nonrc'}}){
-                print "$nrc\n";
-                }
-            print "$infl\n RC\n"; 
-            for my $rc (@{$rh_ssdata->{$infl}->{'rc'}}){
-                print "$rc\n";
-            }
-        }else{
         my $pval = rttest($rh_ssdata->{$infl}->{'nonrc'}, $rh_ssdata->{$infl}->{'rc'});
         print "BLSF = $infl, pval = $pval\n";
 #prints the branch length scaling factor (BLSF) and p-values for t-tests performed on RFD values between non-recoded and recoded datasets.
-        }
     }
 }
-
 sub rboxplot {
     my $rh_ssdata = shift;
         my $rcmd = qq~library(ggplot2)\n~;
