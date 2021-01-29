@@ -20,3 +20,6 @@ symbolic link for script that scores trees to determine the proportion of incorr
 
 ### comphet_bargraph_shape.R 
 produces a bar graph showing the percentage of incorrect trees reconstructed under each method and level of compositional heterogeneity (inflation parameter) tested. This script uses the file comp_het_chang_proportion.csv
+
+### comp_het_chang_proportion.csv
+proportion of incorrect trees for each phylogenetic reconstruction method and level of compositional heterogeneity
