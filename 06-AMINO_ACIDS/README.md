@@ -19,4 +19,7 @@ symbolic link for script that scores trees to determine the proportion of incorr
 `perl is_mono.pl MODEL (DAYHOFF OR JTT) > is_mono.out`
 
 ### comphet_bargraph_random.R
-produces a bar graph showing the percentage of incorrect trees reconstructed under each method and level of compositional heterogeneity (inflation parameter) tested. This script uses the file comp_het_random_proportion.csv.
+produces a bar graph showing the percentage of incorrect trees reconstructed under each method and level of compositional heterogeneity (inflation parameter) tested. This script uses the file comp_het_random_proportion.csv
+
+### comp_het_random_proportion.csv
+proportion of incorrect trees for each phylogenetic reconstruction method and level of compositional heterogeneity
