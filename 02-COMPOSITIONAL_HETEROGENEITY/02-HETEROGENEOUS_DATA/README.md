@@ -12,7 +12,7 @@ to run:
 empty directories in which to simulate compositionally heterogeneous datasets
 
 ### comphet_index_scatter.R 
-produces a scatter plot showing the relationship between the length of internode branches for each tree and comp-het index values for each inflation parameter tested using comphet_index.csv
+produces a scatter plot showing the relationship between the length of internode branches for each tree and comp-het index values for each inflation parameter tested using comphet_index.csv. This script also calculates a linear regression for these relationships.
 
 ### comphet_index.csv
 com-het index values for each simulated dataset

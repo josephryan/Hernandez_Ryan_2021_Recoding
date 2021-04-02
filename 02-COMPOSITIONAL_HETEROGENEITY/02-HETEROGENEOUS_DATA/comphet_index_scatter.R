@@ -1,7 +1,13 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA")
 data <- read.csv('comphet_index.csv')
 library(ggplot2)
 p <-ggplot(data, aes(x=Tree, y=Comp.het.index)) + geom_point() + facet_wrap(vars(Inflation.parameter), scales = "free", dir="v")
 p + scale_x_reverse(name="Branch length", breaks=c(0.008, 0.004, 0.002, 0.001)) + scale_y_continuous(name="Comp-het index") + labs (color="Inflation parameter") + geom_smooth(method=lm, se=FALSE)
-
-                                                                                                                                         
+i.1<-subset(data, Inflation.parameter==0.1)
+i.5<-subset(data, Inflation.parameter==0.5)
+i.9<-subset(data, Inflation.parameter==0.9)
+#Linear Regression statistics between comp-het indices and trees
+linearmod.1<-lm(Comp.het.index~Tree, data=i.1)
+linearmod.5<-lm(Comp.het.index~Tree, data=i.5)
+linearmod.9<-lm(Comp.het.index~Tree, data=i.9)
+summary(linearmod.1)                                                            summary(linearmod.5)  
+summary(linearmod.9)

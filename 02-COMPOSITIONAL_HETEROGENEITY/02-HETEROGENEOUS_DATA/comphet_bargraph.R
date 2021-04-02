@@ -1,4 +1,3 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA")
 data <- read.csv('comphet_proportion_reconstruction.csv')
 data$proportion <- data$proportion*100
 names(data)[3]<-"percent"

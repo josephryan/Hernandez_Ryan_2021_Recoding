@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use POSIX qw(ceil);
-use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
+use lib qw(/../../01-MODULES/);
 use Servers;
 
 our $VERSION = 0.02;

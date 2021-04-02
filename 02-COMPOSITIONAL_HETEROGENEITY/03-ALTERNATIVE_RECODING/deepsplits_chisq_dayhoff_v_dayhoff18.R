@@ -1,4 +1,3 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/03-ALTERNATIVE_RECODING")
 data <- read.csv('comphet_NR_v_18.csv')
 nm<-row(data)
 n<-nm[,1]

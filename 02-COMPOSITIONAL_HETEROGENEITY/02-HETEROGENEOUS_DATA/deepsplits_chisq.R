@@ -1,4 +1,3 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/02-COMPOSITIONAL_HETEROGENEITY/02-HETEROGENEOUS_DATA")
 data <- read.csv('chisqrtest_comphet.csv')
 nm<-row(data)
 n<-nm[,1]

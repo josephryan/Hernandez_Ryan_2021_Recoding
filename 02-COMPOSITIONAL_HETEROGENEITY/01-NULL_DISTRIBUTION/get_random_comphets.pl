@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use lib qw(/Hernandez_Ryan_2019_RecodingSim/01-MODULES/);
+use lib qw(/../../01-MODULES/);
 use CompHet;
 use Cwd;
 use Data::Dumper;
