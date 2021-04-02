@@ -25,8 +25,8 @@ our $SS_DATA_FILE = "ss_data.$VERSION.storable";
 
 MAIN: {
     my $rh_ssdata = get_ssdata();
-    exit;
     store ($rh_ssdata, $SS_DATA_FILE);
+#comment out the two lines above if you have already run and only want to retrieve the data
     my $rh_ssdata = retrieve($SS_DATA_FILE);
     rboxplot($rh_ssdata);
     foreach my $sdir (sort keys %{$rh_ssdata}) {

@@ -21,6 +21,7 @@ our $SS_DATA_LG_FILE = 'ss_data_lg_storable';
 MAIN: {
     my $rh_rfd = get_data($DIR); store($rh_rfd,$SS_DATA_LG_FILE);
     my $rh_rfd = retrieve($SS_DATA_LG_FILE);
+#comment out the two lines above if you have already run and only want to retrieve the data
     my $rh_med = get_medians($rh_rfd);
     rboxplot($rh_rfd);
     foreach my $sdir (sort keys %{$rh_rfd}){
