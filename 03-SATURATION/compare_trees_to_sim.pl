@@ -13,8 +13,8 @@ use Cwd;
 
 our $VERSION = 0.04;
 
-our $CHANG_TREE = '/Hernandez_Ryan_2019_RecodingSim/03-SATURATION/00-DATA/Chang_orig_phylobayes.tre';
-our $FEUDA_TREE = '/Hernandez_Ryan_2019_RecodingSim/03-SATURATION/00-DATA/CHANG_DAYHOFF_CAT_GTR.tre';
+our $CHANG_TREE = '/00-DATA/Chang_orig_phylobayes.tre';
+our $FEUDA_TREE = '/00-DATA/CHANG_DAYHOFF_CAT_GTR.tre';
 our $DIR  = Cwd::getcwd();
 
 our @SDIRS = qw(02-SEQ_GEN_CHANG/01-DAYHOFF 02-SEQ_GEN_CHANG/02-JTT 03-SEQ_GEN_FEUDA/01-DAYHOFF 03-SEQ_GEN_FEUDA/02-JTT);
@@ -25,6 +25,7 @@ our $SS_DATA_FILE = "ss_data.$VERSION.storable";
 
 MAIN: {
     my $rh_ssdata = get_ssdata();
+    exit;
     store ($rh_ssdata, $SS_DATA_FILE);
     my $rh_ssdata = retrieve($SS_DATA_FILE);
     rboxplot($rh_ssdata);

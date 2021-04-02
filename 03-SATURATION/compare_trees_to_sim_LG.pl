@@ -7,7 +7,7 @@ use Storable;
 use Statistics::R;
 use Cwd;
 
-our $CHANG_TREE = '/Hernandez_Ryan_2019_RecodingSim/03-SATURATION/00-DATA/Chang_orig_phylobayes.tre';
+our $CHANG_TREE = '/00-DATA/Chang_orig_phylobayes.tre';
 
 our $DIR = Cwd::getcwd();
 

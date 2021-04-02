@@ -1,4 +1,3 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/03-SATURATION")
 data <- read.csv('medians.csv')
 library(ggplot2)
 p <-ggplot(data, aes(x=Branch.length, y=Median, color=Type)) + geom_point() + geom_line() + facet_wrap(~Model, scales = "free")
