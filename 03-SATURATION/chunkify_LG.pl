@@ -6,7 +6,7 @@ use autodie;
 use Data::Dumper;
 use POSIX qw(ceil);
 use Cwd;
-use lib qw(/../01-MODULES/);
+use lib qw(../01-MODULES/);
 use Servers;
 
 # this script generate shell scripts to be launched on your servers or operating systems.
