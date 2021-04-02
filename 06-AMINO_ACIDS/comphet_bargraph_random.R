@@ -1,4 +1,4 @@
-data <- read.csv('comp_het_random_proportion_v2.csv')
+data <- read.csv('comp_het_random_proportion.csv')
 data$proportion <- data$proportion*100
 names(data)[4]<-"percent"
 library(ggplot2)
