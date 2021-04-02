@@ -1,13 +1,13 @@
 ﻿Pairing,inflation parameter,type,proportion
 Random,0.1,Dayhoff-6 Recoded,0.391
 Random,0.1,Dayhoff,0.151
-Alphabetical,0.1,Dayhoff,0.143
-Alphabetical,0.1,Dayhoff-6 Recoded,0.367
+Ours,0.1,Dayhoff,0.143
+Ours,0.1,Dayhoff-6 Recoded,0.367
 Random,0.5,Dayhoff-6 Recoded,0.421
 Random,0.5,Dayhoff,0.168
-Alphabetical,0.5,Dayhoff,0.156
-Alphabetical,0.5,Dayhoff-6 Recoded,0.354
+Ours,0.5,Dayhoff,0.156
+Ours,0.5,Dayhoff-6 Recoded,0.354
 Random,0.9,Dayhoff-6 Recoded,0.413
 Random,0.9,Dayhoff,0.206
-Alphabetical,0.9,Dayhoff,0.275
-Alphabetical,0.9,Dayhoff-6 Recoded,0.392
+Ours,0.9,Dayhoff,0.275
+Ours,0.9,Dayhoff-6 Recoded,0.392
