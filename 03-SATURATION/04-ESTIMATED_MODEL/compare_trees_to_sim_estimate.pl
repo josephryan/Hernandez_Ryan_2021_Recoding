@@ -23,6 +23,7 @@ our $SS_DATA_FILE = 'ss_data.estimate.storable';
 MAIN: {
     my $rh_ssdata = get_ssdata();
     store $rh_ssdata, $SS_DATA_FILE;
+#comment out the two lines above if you have already run and only want to retrieve the data
     my $rh_ssdata = retrieve($SS_DATA_FILE);
     rboxplot($rh_ssdata);
     foreach my $blsf (sort {$a <=> $b} keys %{$rh_ssdata}) {
