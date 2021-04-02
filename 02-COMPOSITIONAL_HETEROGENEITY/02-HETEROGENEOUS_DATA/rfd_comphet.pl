@@ -28,7 +28,8 @@ our $SS_DATA_FILE = "ss_data.$MOD.storable";
 MAIN: {
     my $rh_ssdata = get_ssdata();
     store $rh_ssdata, $SS_DATA_FILE;
-    #my $rh_ssdata = retrieve($SS_DATA_FILE);
+#comment out the two lines above if you have already run and only want to retrieve the data
+    my $rh_ssdata = retrieve($SS_DATA_FILE);
     rboxplot($rh_ssdata);
     foreach my $infl (sort {$a <=> $b} keys %{$rh_ssdata}) {
         my $pval = rttest($rh_ssdata->{$infl}->{'nonrc'}, $rh_ssdata->{$infl}->{'rc'});
