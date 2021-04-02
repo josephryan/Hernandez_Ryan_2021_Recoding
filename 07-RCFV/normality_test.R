@@ -1,4 +1,3 @@
-setwd("/Hernandez_Ryan_2019_RecodingSim/07-RCFV/")
 data <- read.csv('rcfv_real_v_sim.csv')
 all<- stack(data)
 all <-na.omit(all)
