@@ -1,11 +1,11 @@
-#!/bin/perl
-seq-gen -mPAM -z420 -n1000 -s1.0 -a1.0 -l2000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.2000.1.phy
-seq-gen -mPAM -z420 -n1000 -s5.0 -a1.0 -l2000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.2000.5.phy
-seq-gen -mPAM -z420 -n1000 -s10.0 -a1.0 -l2000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.2000.10.phy
-seq-gen -mPAM -z420 -n1000 -s15.0 -a1.0 -l2000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.2000.15.phy
-seq-gen -mPAM -z420 -n1000 -s20.0 -a1.0 -l2000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.2000.20.phy
-seq-gen -mPAM -z420 -n1000 -s1.0 -a1.0 -l5000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.5000.1.phy
-seq-gen -mPAM -z420 -n1000 -s5.0 -a1.0 -l5000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.5000.5.phy
-seq-gen -mPAM -z420 -n1000 -s10.0 -a1.0 -l5000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.5000.10.phy
-seq-gen -mPAM -z420 -n1000 -s15.0 -a1.0 -l5000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.5000.15.phy
-seq-gen -mPAM -z420 -n1000 -s20.0 -a1.0 -l5000 -or ../../03-SATURATION/00-DATA/Chang_orig_phylobayes.tre > Chang.5000.20.phy
+#!/bin/sh
+perl ../../03-SATURATION/divide.pl Chang.2000.1.phy Chang.2000.1
+perl ../../03-SATURATION/divide.pl Chang.2000.5.phy Chang.2000.5
+perl ../../03-SATURATION/divide.pl Chang.2000.10.phy Chang.2000.10
+perl ../../03-SATURATION/divide.pl Chang.2000.15.phy Chang.2000.15
+perl ../../03-SATURATION/divide.pl Chang.2000.20.phy Chang.2000.20
+perl ../../03-SATURATION/divide.pl Chang.5000.1.phy Chang.5000.1
+perl ../../03-SATURATION/divide.pl Chang.5000.5.phy Chang.5000.5
+perl ../../03-SATURATION/divide.pl Chang.5000.10.phy Chang.5000.10
+perl ../../03-SATURATION/divide.pl Chang.5000.15.phy Chang.5000.15
+perl ../../03-SATURATION/divide.pl Chang.5000.20.phy Chang.5000.20
