@@ -20,3 +20,9 @@ produces a bar graph showing the percentage of incorrect trees reconstructed und
 
 ### comp_het_1000_5000_proportion.csv
 proportion of incorrect trees for each phylogenetic reconstruction method, level of compositional heterogeneity, and data size
+
+### comphet_bargraph_inflation.R
+produces a bar graph showing the percentage of incorrect trees reconstructed under each method and level of compositional heterogeneity (inflation parameter) tested for datasets made up of 2000 amino acids. This script uses the file comp_het_2000.5.9_proportion.csv
+
+### comp_het_2000.5.9_proportion.csv
+proportion of incorrect trees for each phylogenetic reconstruction method and level of compositional heterogeneity for datasets made up of 2,000 amino acids
